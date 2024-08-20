@@ -3,14 +3,14 @@ import Navbar from "../navbar/Navbar.jsx";
 import {IoIosSearch} from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocalPhone } from "react-icons/md";
-// import MobileNavbar from "../navbar/MobileNavbar.jsx";
+import MobileNavbar from "../navbar/MobileNavbar.jsx";
 
 function Header() {
 
     return (
-        <header className="flex flex-col ">
+        <header className="flex flex-col p-4">
 
-            <div className="flex justify-around">
+            <div className="md:flex justify-around p-4 hidden">
                 <img src="https://placehold.co/100x30/black/white" 
                 alt="Page Logo"/>
 
@@ -44,7 +44,7 @@ function Header() {
 
             <Navbar/>
 
-            {/*<MobileNavbar/>*/}
+            <MobileNavbar/>
         </header>
     )
 }
