@@ -12,7 +12,7 @@ function MobileNavbar() {
 
             {isOpen && (
             <nav 
-            className="debugger absolute right-4 flex flex-col w-fit gap-2 divide-y divide-gray-500 rounded-xl p-4 bg-gray-100"
+            className="absolute right-4 flex flex-col w-fit gap-2 divide-y divide-gray-500 rounded-xl p-4 bg-gray-100"
             >
                 {
                     navMenus.map((menu, index) => (
